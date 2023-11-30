@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Nyasha Sans';
+    src: url('NyashaSans.eot');
+    src: local('Nyasha Sans'), local('NyashaSans'),
+        url('NyashaSans.eot?#iefix') format('embedded-opentype'),
+        url('NyashaSans.woff2') format('woff2'),
+        url('NyashaSans.woff') format('woff'),
+        url('NyashaSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
