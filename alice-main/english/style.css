@@ -63,6 +63,7 @@ nav {
     background-size: cover;
     height: 900px;
     text-align: center;
+    background-position: center;
 }
 
 h1 {
@@ -113,4 +114,16 @@ h1 span {
 
 .hero div {
     padding-left: 200px;
+}
+
+@media (max-width: 900px) {
+    .nav-link {
+        display: none;
+    }
+    .hero div {
+        padding-left: 0px;
+    }
+    h1 {
+        font-size: 35px;
+    }
 }
