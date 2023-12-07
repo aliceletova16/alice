@@ -1,0 +1,46 @@
+.text {
+    padding: 50px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    background-color: antiquewhite;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.78);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.78);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.78);
+}
+
+a {
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: 800;
+}
+
+body, html {
+    background-color: darkkhaki;
+    font-family: cursive;
+    scroll-behavior: smooth;
+}
+
+a:focus {
+    color: rgb(255, 230, 0);
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    nav {
+        flex-wrap: wrap;
+    }
+}
