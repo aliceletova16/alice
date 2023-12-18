@@ -16,6 +16,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -96,6 +97,21 @@ line-height: 28px; /* 140% */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px 20px;
+
+    @media (max-width:1000px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @media (max-width:700px) {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+
+    img {
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+    
 }
 
 .card {
@@ -105,7 +121,7 @@ background: #FFF;
 
 img {
     width: 100%;
-}
+
 }
 
 .box {
@@ -142,4 +158,6 @@ line-height: 16px; /* 100% */
     max-width: 24px;
     width: 100%;
 }
+
+
 
