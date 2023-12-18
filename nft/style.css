@@ -2,6 +2,10 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 .container {
   max-width: 1300px;
   width: 100%;
@@ -75,12 +79,15 @@ h3 {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px; /* 140% */
+  line-height: 28px;
+  /* 140% */
 }
 
 .cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  overflow-x: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px 20px;
 }
 @media (max-width: 1000px) {
@@ -99,47 +106,44 @@ h3 {
 }
 
 .card {
+  max-width: 300px;
   border-radius: 16px;
   border: 1.5px solid #E6E6E6;
   background: #FFF;
 }
 .card img {
   width: 100%;
-  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-          clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
-
-.box {
+.card .box {
   padding: 16px 20px;
 }
-
-.bid {
+.card .bid {
   color: var(--SystemGray-01-Light, #8E8E93);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
+  /* 150% */
   text-align: right;
   padding-top: 40px;
 }
-
-.name {
+.card .name {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.name p {
+.card .name p {
   color: var(--SystemGray-01-Light, #8E8E93);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 16px; /* 100% */
+  line-height: 16px;
+  /* 100% */
 }
-.name h3 {
+.card .name h3 {
   margin-left: auto;
 }
-
-.user {
+.card .user {
   max-width: 24px;
   width: 100%;
 }/*# sourceMappingURL=style.css.map */
