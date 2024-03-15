@@ -38,6 +38,7 @@
 
 
 h1{
+    text-align: center;
     font-size: 90px;
 }
 
@@ -45,36 +46,124 @@ b {
     font-size: 30px;
 }
 
-
-.about__box-text {
-    width: 90%;
-}
-.about{
-
-
-
-}
-
-.about__photo {
-    width: 100%;
-    margin: 15px;
-}
-
-
-h1{
-    text-align: center;
-}
-.about__wrapper {
-
-    display: flex;
-    align-items: center;
+.about {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-h2 {
 
-color: rgb(92, 46, 46);
+.about__box-title {
+margin-top: 60px;
+
+
 }
+
+.about__box-text {
+font-size: 30px;
+margin: 0 0 300px 30px;
+}
+
+.contacts{
+    text-decoration: none;
+    border: 3px solid rgb(17, 41, 17);
+    border-radius: 15px;
+    background-color: rgb(22, 62, 22);
+    color: whitesmoke;
+    display: block;
+    margin-top: 100px;
+    padding: 15px;
+    width: 300px;
+    
+}
+
+
+.about__photo {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.about__wrapper {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 30px;
+}
+
+h2 {
+color: rgb(92, 46, 46);
+text-align: center;
+
+}
+
+.about-me{
+    margin: 40px 0;
+    font-size: 70px;
+}
+
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-align: center;
+
+
+}
+
+
+
+
+.gallery {
+    background-color: rgb(224, 224, 223);
+}
+.container {
+}
+.gallery__box-cards {
+
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.gallery__section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery__section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery__section3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.pic {
+    max-width: 200px;
+    width: 100%;
+}
+
+
+.card {
+height: 300px;
+padding: 20px;
+border: 1px solid black;
+margin: 20px;
+
+}
+
+.contacts__h3{
+    padding: 20px;
+    font-size: 10px;
+}
+
 
 
 
