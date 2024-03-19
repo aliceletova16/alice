@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="navbar.html">
+</head>
+<body>
+    <div class="container">
+        <div style="text-align:center">
+          <h2>Контакты</h2>
+          <p>Буду очень рада, если напишите мне и закажете картину! </p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="./contacts-img.jpg" style="width:100%">
+          </div>
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">Введите ваш e-mail</label>
+              <input type="text" id="fname" name="firstname" placeholder="ваш e-mail">
+              <label for="lname">Ведите ваше имя</label>
+              <input type="text" id="lname" name="lastname" placeholder="Ваше имя...">
+              <label for="country">Страна</label>
+              <select id="country" name="country">
+                <option value="australia">Узбекистан</option>
+                <option value="canada">Россия</option>
+                <option value="usa">США</option>
+              </select>
+              <label for="subject">Ваше сообщение</label>
+              <textarea id="subject" name="subject" placeholder="Напишите что-нибудь..." style="height:170px"></textarea>
+              <input type="submit" value="Отправить">
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+    
+</body>
+</html>
