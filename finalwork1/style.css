@@ -166,9 +166,7 @@ background-color: rgb(255, 251, 231);
 }
 
 .cntcts__h3{
-    margin: 80px;
     color: black;
-    background-color: white;
 }
 
 
@@ -268,7 +266,13 @@ input[type=text], select, textarea {
     }
 
     img {
-        max-width: 1000px;
+
+    }
+
+
+    .about__box-text {
+        margin: 0;
+        font-size: 25px;
     }
 
 
