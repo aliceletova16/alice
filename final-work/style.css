@@ -13,7 +13,7 @@
 
 
 .navbar__box-title{
-    background-image: url(./background-image1.jpg);
+    background-image: url(./background-header.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -34,8 +34,7 @@ a{
 
 .navbar__box-title{
     text-align: center;
-    color: antiquewhite;
-    padding: 300px;
+    color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
@@ -44,6 +43,7 @@ a{
 h1{
     text-align: center;
     font-size: 90px;
+    
 }
 
 b {
@@ -258,6 +258,22 @@ input[type=text], select, textarea {
     }
   }
 
+
+
+  @media (max-width: 430px) {
+    .about__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    img {
+        max-width: 1000px;
+    }
+
+
+    
+  }
 
 
 
