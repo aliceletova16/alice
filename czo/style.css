@@ -1,0 +1,133 @@
+body {
+    background-image: url(./picc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    @media (max-width: 700px) {
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        img {
+            max-width: 250px;
+            width: 100%;
+
+        }
+
+        .h1b {
+            font-size: 25px;
+        }
+
+        .h1s {
+            font-size: 20px;
+            padding: 8px;
+        }
+
+        
+    }
+}
+
+
+
+.h1b {
+    color: rgb(222, 218, 2);
+    text-align: center;
+    font-size: 80px;
+    font-weight: 500px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1s {
+    background-color:rgb(222, 218, 2);
+    width: 300px;
+    text-align: center ;
+    margin: 0 auto 20px auto;
+    padding: 12px 0 12px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img {
+    max-width: 200px;
+    width: 100%;
+
+
+
+}
+
+.text1 
+{
+    color: rgb(162, 162, 98);
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h3 {
+    color: rgb(222, 218, 2);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.description, .title {
+    color: rgb(227, 224, 22);
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link {
+    color: #8d8dff;
+    text-decoration: none;
+}
+
+.imgp {
+    width: 50%;
+    height: 500px;
+    margin: 0 0 20px 250px;
+     border: 1px solid rgb(162, 162, 98); 
+     border-radius: 20px;
+}
+
+.h2 {
+    color: rgb(16, 16, 16);
+    background-color: rgba(227, 224, 22, 0.456);
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h3-2 {
+    color: rgb(227, 224, 22);
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    color: rgb(227, 224, 22);
+    /* text-align: center; */
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
