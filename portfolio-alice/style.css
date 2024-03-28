@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-color: rgb(14, 14, 14);
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+justify-content: space-between;
+margin: 50px;
+
+
+@media (max-width: 700px) {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    
+}
+}
+
+.my-photo__box {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+
+
+    .my-photo{
+        border-radius: 50%;
+    }
+
+    .name {
+        margin: 25px;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+
+    }
+
+
+    @media (max-width: 700px) {
+        .my-photo__box{
+            max-width: 200px;
+            width: 100%;
+        }
+        
+    }
+}
+
+
+
+.link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: bisque;
+    background-color: rgb(138, 0, 0);
+    margin: 20px;
+    padding: 20px 40px;
+    font-size: 25px;
+    border: 1px solid rgb(255, 149, 0);
+    border-radius: 10px;
+
+     
+        width: 200px;
+        border-radius: 5px;
+        background-color: rgb(138, 0, 0);
+        background-image: rgb(138, 0, 0);
+        background-image: -moz-linear-gradient(top, #ffbf58 0%, #dd4403 100%); 
+        background-image: -webkit-linear-gradient(top, #ffbf58 0%,#dd4403 100%); 
+        background-image: linear-gradient(to bottom, #ffbf58 0%,#dd4403 100%); 
+        background-size: 300px;
+        background-repeat: no-repeat;
+        background-position: 0%;
+        -webkit-transition:  300ms ease-in-out;
+        transition:  300ms ease-in-out;
+      }
+      .link:hover {
+        background-position: -200%;
+        transition:  300ms ease-in-out;
+      }
+
+h1 {
+    margin: 50px 0 60px 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
