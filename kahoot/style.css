@@ -1,0 +1,583 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red {
+    width: 1000px;
+    height: 450px;
+    background-color: red;
+
+    animation: cred 4s linear infinite;
+}
+
+@keyframes cred {
+    0% {
+        background-color: red;
+    }
+    
+    50% {
+        background-color: orange;
+
+    }
+
+    100% {
+        background-color: red;
+
+    }
+}
+
+.blue {
+    width: 1000px;
+    height: 450px;
+    background-color: blue;
+    
+    animation: cblue 4s linear infinite;
+}
+
+@keyframes cblue {
+    0% {
+        background-color: blue;
+    }
+    
+    50% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: blue;
+    }
+}
+
+.yellow {
+    width: 1000px;
+    height: 450px;
+    background-color: orange;
+    
+    animation: cyellow 4s linear infinite;
+}
+
+@keyframes cyellow {
+    0% {
+        background-color: orange;
+    }
+    
+    50% {
+        background-color: green;
+    }
+
+    100% {
+        background-color: orange;
+    }
+}
+
+.green {
+    width: 1000px;
+    height: 450px;
+    background-color: green;
+    animation: cgreen 4s linear infinite;
+}
+
+@keyframes cgreen {
+    0% {
+        background-color: green;
+    }
+    
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+.kahoot {
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 350px;
+    left: 800px;
+
+
+}
+
+.game-pin {
+    width: 400px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 475px;
+    left: 750px;
+
+}
+
+input {
+    width: 350px;
+    border: 5px solid darkgray;
+    border-radius: 10px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.enter {
+    width: 350px;
+    background-color: rgb(18, 18, 18);
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 10px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+body {
+    background-color: lightgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.question {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.skip {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    width: max-content;
+    font-size: 25px;
+    font-weight: 800;
+    position: relative;
+    top: 60px;
+    right: 30px;
+    margin-left: auto;
+    display: block;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timer {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.main {
+    width: 700px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+}
+
+.count {
+    font-size: 30px;
+    font-weight: 800;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+    margin: 15px 30px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 20px 30px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    font-size: 50px;
+    margin-left: 15px;
+    text-decoration: none;
+    transition: all 0.3s;
+
+    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.btn-2 {
+    background-color: blue;
+}
+.btn-3 {
+    background-color: orange;
+}
+.btn-4 {
+    background-color: green;
+}
+
+.navigation {
+    background-color: rgb(233, 232, 232);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        font-size: 30px;
+        padding: 15px;
+    }
+    
+    .result-green {
+        width: 100%;
+        background-color: rgb(10, 144, 10);
+        color: white;
+        text-align: center;
+        padding-top: 200px;
+        padding-bottom: 100px;
+        font-size: 40px;
+    
+        text-shadow: 0px 0px 10px rgba(7,57,0,0.96);
+    }
+    
+    .result-red {
+        width: 100%;
+        background-color: rgb(180, 0, 0);
+        color: white;
+        text-align: center;
+        padding-top: 200px;
+        padding-bottom: 100px;
+        font-size: 40px;
+    
+        text-shadow: 0px 0px 10px rgba(100,0,0,0.96);
+    }
+    
+    .text {
+        padding: 20px;
+    }
+    
+    .text-1 {
+        font-size: 80px;
+        color: rgb(176, 255, 19);
+    }
+    
+    .wrong {
+        font-size: 80px;
+        color: rgb(255, 48, 17);
+    }
+    
+    .text-2, .text-4 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    .text-3 {
+        width: 500px;
+        margin: 0 auto;
+        background-color: darkgreen;
+        padding: 20px;
+        border: 1px solid darkgreen;
+        border-radius: 10px;
+        font-weight: 700;
+    
+        animation: scale 2s linear;
+    }
+    
+    @keyframes scale {
+        0% {
+            transform: scale(1);
+            background-color: darkgreen;
+        }   
+        50% {
+            transform: scale(1.2);
+            background-color: rgb(2, 185, 2);
+        }    
+        100% {
+            transform: scale(1);
+            background-color: darkgreen;
+        }
+    }
+    
+    .zero {
+        width: 500px;
+        margin: 0 auto;
+        background-color: darkred;
+        padding: 20px;
+        border: 1px solid darkred;
+        border-radius: 10px;
+        font-weight: 700;
+    
+        animation: scale2 2s linear;
+    }
+    
+    @keyframes scale2 {
+        0% {
+            transform: scale(1);
+            background-color: darkred;
+        }   
+        50% {
+            transform: scale(1.2);
+            background-color: red;
+        }    
+        100% {
+            transform: scale(1);
+            background-color: darkred;
+        }
+    }
+    
+    
+    .point {
+        display: flex;
+        justify-content: space-around;
+        font-size: 30px;
+        padding: 10px;
+    }
+    
+    
+    .mark {
+        background-color: darkgray;
+        padding: 15px 25px;
+        border: 1px solid darkgray;
+        border-radius: 10px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    
+    .mark-2 {
+        color: darkgreen;
+    }
+    
+    .strong-1 {
+        padding: 10px;
+    }
+    
+    .strong-2 {
+        border: 1px solid lightgray;
+        border-radius: 15px;
+        padding: 10px;
+        background-color: lightgray;
+    }
+    
+    .photos {
+        display: flex;
+        justify-content: center;
+        margin: 100px;
+    
+        animation: op 2.3s linear;
+    }
+    
+    @keyframes op {
+        0% {
+            opacity: 0;
+        }  
+    
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    .top-3 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .f-1 {
+        margin: 20px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-image: url(./img/arslan.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 100px;
+        right: 10px;
+    }
+    
+    .circle {
+        width: 50px;
+        height: 50px;
+        padding: 50px;
+        border-radius: 50%;
+        text-align: center;
+        margin: 20px auto;
+    }
+    
+    .n {
+        font-weight: 700;
+        font-size: 35px;
+    }
+    
+    
+    
+    .marks {
+        font-size: 25px;
+        font-weight: 700;
+        padding-top: 8px;
+    }
+    
+    
+    .m {
+        position: relative;
+        bottom:  25px;
+        right: 15px;
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    
+    .an {
+        width: 200px;
+        height: 400px;
+        background-color: rgb(129, 1, 154);
+        border: 1px solid rgb(129, 1, 154);
+        border-radius: 5px;
+    
+        animation: sc 2s linear;
+    }
+    
+    @keyframes sc {
+        0% {
+            transform: scale(0);
+        }  
+    
+        100% {
+            transform: scale(1);
+        }
+    }
+    
+    .f-2 {
+        margin: 20px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-image: url(./img/alice.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .circle-1 {
+        background-color: darkgray ;
+        border: 5px solid  gray;
+    }
+
+    .aa {
+        width: 200px;
+        height: 500px;
+        background-color: rgb(160, 12, 190);
+        position: relative;
+        bottom: 100px;
+        border: 1px solid rgb(160, 12, 190);
+        border-radius: 5px;
+    
+        animation: sc 2s linear;
+    }
+    
+    @keyframes sc {
+        0% {
+            transform: scale(0);
+        }  
+    
+        100% {
+            transform: scale(1);
+        }
+    }
+    
+    .f-3 {
+        margin: 20px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-image: url(./img/ruslan.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 200px;
+        left: 10px;
+    }
+    
+    .circle-2 {
+        background-color: gold;
+        border: 5px solid darkgoldenrod;
+    }
+    
+    .rn {
+        width: 200px;
+        height: 300px;
+        background-color: rgb(129, 1, 154);
+        position: relative;
+        top: 100px;
+        border: 1px solid rgb(129, 1, 154);
+        border-radius: 5px;
+    
+        animation: sc 2s linear;
+    }
+    
+    @keyframes sc {
+        0% {
+            transform: scale(0);
+        }  
+    
+        100% {
+            transform: scale(1);
+        }
+    }
+    
+    .circle-3 {
+        background-color: orange;
+        border: 5px solid darkorange;
+    }
+    
+    .podium {
+        width: 100%;
+        background-color: rgb(64, 25, 100);
+        padding:10px 0 100px 0;
+    }
+    
+    .score-1 {
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 700;
+        margin: 15px;
+    }
+    
+    .score-2 {
+        width: 300px;   
+        text-align: center;
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 10px;
+        font-weight: 800;
+        margin: 0 auto;
+    
+    }
