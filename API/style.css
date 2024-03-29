@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 body {
     background-image: url(https://watermark.lovepik.com/background/20211021/large/lovepik-green-watercolor-texture-background-image_450049598.jpg);
     background-repeat: no-repeat;
@@ -27,6 +34,23 @@ body {
     box-shadow: 1px 1px 10px 5px rgb(2, 47, 11);
 
     backdrop-filter: blur(10px);
+
+    &:before {
+        content: "";
+        width: 100px;
+        height: 100px;
+        background-image: url(https://barber-xplo.vercel.app/img/case-after.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        animation: rotate 2s infinite linear;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        /* z-index: 3; */
+    }
 
     img {
         width: 90%;
@@ -56,4 +80,29 @@ body {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+}
+
+.rotate {
+    animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+    
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    object-fit: ;
 }
