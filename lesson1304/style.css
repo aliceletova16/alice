@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-box-shadow: 0px 22px 30px 6px rgba(0, 0, 0, 0.56);
+    -moz-box-shadow: 0px 22px 30px 6px rgba(0, 0, 0, 0.56);
+    box-shadow: 0px 22px 30px 6px rgba(0, 0, 0, 0.56);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.block {
+    display: flex;
+    gap: 30px;
+}
+
+.dark_btn {
+    width: 40px;
+    height: 40px;
+    background-image: url(./img/icon.btn_on.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &.active {
+        background-image: url(./img/icon.btn_off.png);
+    }
+}
+
+img {
+    width: 30px;
+}
+
+
+section {
+    margin: 20px 0;
+
+    p {
+        margin: 10px 0;
+        line-height: 20px;
+        color: grey;
+    }
+}
+
+.dark_mode {
+    background-color: black;
+    color: white;
+}
+
+.dark_nav {
+    background-color: black;
+
+    a {
+        color: white;
+    }
+}
