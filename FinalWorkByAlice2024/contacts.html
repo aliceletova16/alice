@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="./portfolio.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+    <header class="header">
+        <nav>
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+    
+                         <a href="./index.html">АссоРТи </a> 
+                    </div>
+                    <ul class="menu">
+                        <!-- <li class="menu__item"><a href="./index.html" class="menu__item-link" data-scroll>Главная страница</a></li> -->
+                        <li class="menu__item"><a href="./about.html" class="menu__item-link" data-scroll>Обо мне</a></li>
+                        <li class="menu__item"><a href="./portfolio.html" class="menu__item-link" data-scroll>Портфолио</a></li>
+                        <li class="menu__item"><a href="./shop.html" class="menu__item-link" data-scroll>Магазин</a></li>
+                        <li class="menu__item"><a href="./contacts.html" class="menu__item-link" data-scroll>Контакты</a></li>
+                    </ul>
+
+                    <img class="burger"  src="https://t3.ftcdn.net/jpg/02/25/22/18/360_F_225221877_9x7repcZzz4ryhvZ4Z5DmlnnCTdTUImT.jpg" alt="">
+                </div>
+            </div>
+            </header>
+
+        </nav>
+  
+
+    <div class="container">
+        <div style="text-align:center">
+          <h2>Контакты</h2>
+          <p>Буду очень рада, если напишите мне и закажете картину! </p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="./img/contacts-img.jpg" style="width:100%">
+          </div>
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">Введите ваш e-mail</label>
+              <input type="text" id="fname" name="firstname" placeholder="ваш e-mail">
+              <label for="lname">Ведите ваше имя</label>
+              <input type="text" id="lname" name="lastname" placeholder="Ваше имя...">
+              <label for="country">Страна</label>
+              <select id="country" name="country">
+                <option value="australia">Узбекистан</option>
+                <option value="canada">Россия</option>
+                <option value="usa">США</option>
+              </select>
+              <label for="subject">Ваше сообщение</label>
+              <textarea id="subject" name="subject" placeholder="Напишите что-нибудь..." style="height:170px"></textarea>
+              <input type="submit" value="Отправить">
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
